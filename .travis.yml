@@ -1,7 +1,7 @@
-language : node_js
-node_js :
+language: node_js
+node_js:
   - 'v8.11.0'
-install :
+install:
   - npm install
 script:
   - npm test
